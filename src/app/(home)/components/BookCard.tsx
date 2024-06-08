@@ -20,7 +20,7 @@ const BookCard = ({ book }: { book: Book }) => {
         </h2>
         <p className="text-primary-900 font-bold mt-1">{book.author.name}</p>
         <Link
-          href={`/books/${book._id}`}
+          href={`/book/${book._id}`}
           className="text-primary-500 font-medium text-sm rounded border border-primary-500 px-2 py-1 mt-4 inline-block hover:border-primary-100 hover:bg-primary-100 transition"
         >
           Read More
